@@ -227,6 +227,19 @@
 		"SFUI_XP_RankName_37"	"少将"
 		"SFUI_XP_RankName_39"	"大将"
 		"SFUI_XP_RankName_40"	"元帥"
+		"SFUI_XP_RankName_Display"	"%s2 - レベル %s1"
+		"SFUI_XP_RankName_EarnedNewLevel"	"レベルアップ!"
+		"SFUI_XP_RankName_NewLevel"	"レベルアップ"
+		"SFUI_XP_RankName_EarnedMax"	"元帥ランクを獲得！"
+		"SFUI_XP_RankName_Display_Bonus_Active"	"%s2 - レベル %s1<font color='#466571'> XP ボーナス加算は有効 </font>"
+		"SFUI_XP_RankName_Next_Drop"	"レベル %s1 +<b>%s2</b> 個のドロップ"
+		"SFUI_XP_RankName_Next_Drop_Nolevel"	"マッチを完了して、レベル %s1 にレベルアップ + ドロップを獲得"
+		"SFUI_XP_RankName_Next"	"レベル %s1"
+		"SFUI_PersonaNotification_Msg_5"	"あなたが最近報告した、1人以上のプレーヤーが有罪と判定され、 CS:GO 公式サーバーから永久的な接続禁止となりました。ご協力ありがとうございました。"
+		"SFUI_PersonaNotification_Msg_6"	"最近の対戦パーティーの1人以上のメンバーが、チート行為によって有罪と判定され、 CS:GO 公式サーバーから永久的な接続禁止となりました。そのため、あなたを含む仲間全員がペナルティーを課されました。それに伴い、あなたの CS:GO プロフィールランク、対戦勝利数及びスキルグループが修正されました。"
+		"SFUI_PersonaNotification_Title_5"	"プレイヤーの報告"
+		"SFUI_PersonaNotification_Title_6"	"接続禁止のパーティーメンバー"
+		"SFUI_Redeem_Service_Medal"	"服役メダルを受け取る"
 		
 		"KillEaterEventType_Kills"					"<font size='18'>StatTrak™ Confirmed Kills</font>"
 		"SFUI_InvTooltip_Wear_Amount_0"		"<font size='18' color='#00FF00'><b>Factory New</b></font>"
@@ -285,6 +298,22 @@
 		"SFUI_MainMenu_StatsButton"			"<font color='#FF0000'>STATS</font>"
 		"SFUI_MainMenu_My_Awards"			"<font color='#FF0000'>アワード</font>"
 		"SFUI_MainMenu_HelpButton"			"<font color='#FF0000'>オプション</font>"
+		"SFUI_MainMenu_Wins_Title"	"対戦マッチ勝利"
+		"SFUI_MainMenu_CommendTooltip_teaching"	"複数のプレイヤーが、あなたを <b>指導者</b>だと称賛しました"
+		"SFUI_MainMenu_CommendTooltip_Friendly"	"複数のプレイヤーが、あなたを <b>フレンドリー</b> だと称賛しました"
+		"SFUI_MainMenu_CommendTooltip_Leader"	"複数のプレイヤーが、あなたを <b>リーダー</b> だと称賛しました"
+		"SFUI_MainMenu_CommendTooltip_Teacher"	"複数のプレイヤーが、あなたを <b>指導者</b>だと称賛しました"
+		"SFUI_MainMenu_CommendTooltip_Wins"	"<b>対戦マッチ</b> での勝利数"
+		"SFUI_MainMenu_SkillTooltip"	"対戦マッチメーキングでのスキルグループは、プレイヤーのスキルに適したマッチを探す為に使用されます"
+		"SFUI_PlayMenu_FriendsMatchButton"	"フレンドとプレイ"	[$WIN32||$PS3]
+		"SFUI_PlayMenu_CustomMatchButton"	"ゲームを検索"	[$PS3]
+		"SFUI_PlayMenu_Offline"	"ローカルプレイ"
+		"SFUI_PlayMenu_WithBotsButton"	"ボットとオフライン"	[$WIN32]
+		"SFUI_PlayMenu_WithBotsButton"	"ボットとオフライン"	[$X360||$PS3]
+		"SFUI_PlayMenu_BrowseServersButton"	"コミュニティサーバーを閲覧"
+		"SFUI_PlayMenu_CreateLobbyButton"	"フレンドとプレイ"
+		"SFUI_MainMenu_ConfirmBan"	"確定"
+		
 		
 		"Cstrike_game_join_spectators"	"%s1 > Spectator\n"
 		"Cstrike_game_join_terrorist"	"%s1 > T TEAM\n"
@@ -303,6 +332,8 @@
 		"Cstrike_Chat_AllDead"				"%s1 (Dead): %s2"
 		"Cstrike_Chat_AllSpec"				"%s1: %s2"
 		
+		"SFUI_WinPanel_rank_awarded"	"新しいランクを解除した!"
+		"SFUI_WinPanel_rank_awarded_multi"	"%s1 つの新しいランクを解除した！"
 		"GameUI_Yes"	"はい"
 		"GameUI_No"	"いいえ"
 		"SFUI_TeamButtonAuto"	"自動選択"
@@ -315,7 +346,7 @@
 		"SFUI_WPNHUD_Knife_T"	"ナイフ"
 		"SFUI_WPNHUD_Knife_GG"	"ゴールドナイフ"
 		"SFUI_WPNHUD_Flashbang"	"フラッシュグレネード"
-		"SFUI_WPNHUD_HE_Grenade"	"HE グレネード"
+		"SFUI_WPNHUD_HE_Grenade"	"グレネード"
 		"SFUI_WPNHUD_Smoke_Grenade"	"スモークグレネード"
 		"SFUI_WPNHUD_Molotov"	"火炎瓶"
 		"SFUI_WPNHUD_IncGrenade"	"焼夷グレネード"
