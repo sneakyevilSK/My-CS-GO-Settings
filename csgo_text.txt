@@ -8,7 +8,8 @@
 // ---------------------------------------------------------------------------------------------
 // GAMEUI_ENGLISH.txt
 
-		"Cstrike_TitlesTXT_Game_teammate_attack" " %s1 attacked a teammate."
+		//"Cstrike_TitlesTXT_Game_teammate_attack" " %s1 attacked a teammate."
+		"Cstrike_TitlesTXT_Game_teammate_attack" " %s1 はチームメイトを攻撃した。"
 		
 		"Player_Cash_Award_Kill_Teammate"		" %s1: Teamkill"
 		//"Player_Cash_Award_Killed_Enemy_Generic" " %s1: Kill"
@@ -257,19 +258,33 @@
 		"SFUI_ELO_RankName_17"						"<font size='14' color='#11FF00'>17/18 </font>| <font size='14' color='#FFFFFF'><b>Supreme</b></font>"
 		"SFUI_ELO_RankName_18"						"<font size='14' color='#00FF00'>18/18 </font>| <font size='14' color='#FFFFFF'><b>GE</b></font>"
 		
-		"SFUI_MainMenu_PlayButton"			"<font color='#FF0000'>PLAY</font>"
-		"SFUI_MainMenu_Inventory"			"<font color='#FF0000'>INVENTORY</font>"
-		"SFUI_MainMenu_Watch"				"<font color='#FF0000'>WATCH</font>"
-		"SFUI_MainMenu_LeaderboardsButton"	"<font color='#FF0000'>LEADERBOARDS</font>"
-		"SFUI_MainMenu_AchievementsButton"	"<font color='#FF0000'>ACHIEVEMENTS</font>"
-		"SFUI_MainMenu_AchievementsButton"	"<font color='#FF0000'>ACHIEVEMENTS</font>" [$X360]
-		"SFUI_MainMenu_AchievementsButton"	"<font color='#FF0000'>ACHIEVEMENTS</font>" [$PS3]
-		"SFUI_MainMenu_MedalButton"			"<font color='#FF0000'>ACHIEVEMENTS</font>"
-		"SFUI_MainMenu_MedalButton"			"<font color='#FF0000'>ACHIEVEMENTS</font>"	[$PS3]
-		"SFUI_MainMenu_MedalButton"			"<font color='#FF0000'>ACHIEVEMENTS</font>" [$X360]
+		//"SFUI_MainMenu_PlayButton"			"<font color='#FF0000'>PLAY</font>"
+		//"SFUI_MainMenu_Inventory"			"<font color='#FF0000'>INVENTORY</font>"
+		//"SFUI_MainMenu_Watch"				"<font color='#FF0000'>WATCH</font>"
+		//"SFUI_MainMenu_LeaderboardsButton"	"<font color='#FF0000'>LEADERBOARDS</font>"
+		//"SFUI_MainMenu_AchievementsButton"	"<font color='#FF0000'>ACHIEVEMENTS</font>"
+		//"SFUI_MainMenu_AchievementsButton"	"<font color='#FF0000'>ACHIEVEMENTS</font>" [$X360]
+		//"SFUI_MainMenu_AchievementsButton"	"<font color='#FF0000'>ACHIEVEMENTS</font>" [$PS3]
+		//"SFUI_MainMenu_MedalButton"			"<font color='#FF0000'>ACHIEVEMENTS</font>"
+		//"SFUI_MainMenu_MedalButton"			"<font color='#FF0000'>ACHIEVEMENTS</font>"	[$PS3]
+		//"SFUI_MainMenu_MedalButton"			"<font color='#FF0000'>ACHIEVEMENTS</font>" [$X360]
+		//"SFUI_MainMenu_StatsButton"			"<font color='#FF0000'>STATS</font>"
+		//"SFUI_MainMenu_My_Awards"			"<font color='#FF0000'>AWARDS</font>"
+		//"SFUI_MainMenu_HelpButton"			"<font color='#FF0000'>OPTIONS</font>"
+		
+		"SFUI_MainMenu_PlayButton"			"<font color='#FF0000'>プレイ</font>"
+		"SFUI_MainMenu_Inventory"			"<font color='#FF0000'>インベントリ</font>"
+		"SFUI_MainMenu_Watch"				"<font color='#FF0000'>観戦</font>"
+		"SFUI_MainMenu_LeaderboardsButton"	"<font color='#FF0000'>ランキング</font>"
+		"SFUI_MainMenu_AchievementsButton"	"<font color='#FF0000'>実績</font>"
+		"SFUI_MainMenu_AchievementsButton"	"<font color='#FF0000'>実績</font>" [$X360]
+		"SFUI_MainMenu_AchievementsButton"	"<font color='#FF0000'>実績</font>" [$PS3]
+		"SFUI_MainMenu_MedalButton"			"<font color='#FF0000'>実績</font>"
+		"SFUI_MainMenu_MedalButton"			"<font color='#FF0000'>実績</font>"	[$PS3]
+		"SFUI_MainMenu_MedalButton"			"<font color='#FF0000'>実績</font>" [$X360]
 		"SFUI_MainMenu_StatsButton"			"<font color='#FF0000'>STATS</font>"
-		"SFUI_MainMenu_My_Awards"			"<font color='#FF0000'>AWARDS</font>"
-		"SFUI_MainMenu_HelpButton"			"<font color='#FF0000'>OPTIONS</font>"
+		"SFUI_MainMenu_My_Awards"			"<font color='#FF0000'>アワード</font>"
+		"SFUI_MainMenu_HelpButton"			"<font color='#FF0000'>オプション</font>"
 		
 		"Cstrike_game_join_spectators"	"%s1 > Spectator\n"
 		"Cstrike_game_join_terrorist"	"%s1 > T TEAM\n"
@@ -288,6 +303,9 @@
 		"Cstrike_Chat_AllDead"				"%s1 (Dead): %s2"
 		"Cstrike_Chat_AllSpec"				"%s1: %s2"
 		
+		"SFUI_TeamButtonAuto"	"自動選択"
+		"SFUI_TeamButtonCancel"	"キャンセル"
+		"SFUI_TeamButtonSpectate"	"観戦"
 		"winpanel_mvp_award"	"最優秀選手: %s1"
 		"terrorists"	"テロリスト"
 		"counter-terrorists"	"カウンターテロリスト"
@@ -303,7 +321,10 @@
 		"Cstrike_TitlesTXT_Got_Hostages"	"人質を確保した。"
 		"Cstrike_TitlesTXT_Defusing_Bomb"	"爆弾を解除する。"
 		"Cstrike_TitlesTXT_Planting_Bomb"	"爆弾を設置中だ。"
+		"SFUI_Lobby_MatchReadyTitle"	"マッチの準備ができました！"
 		"SFUI_Accept"	"了解"
+		"SFUI_Lobby_MatchReadyButton"	"承諾"
+		"SFUI_Scoreboard_CompWins"	"対戦マッチ勝利数"
 		"SFUI_Lobby_Title"	"ロビー"
 		"SFUI_Scoreboard_1st_Half"	"前半"
 		"SFUI_Scoreboard_Halftime"	"ハーフタイム"
@@ -337,6 +358,20 @@
 		"SFUI_GameModeGGProgressive"	"軍拡競争"
 		"SFUI_GameModeGGBomb"	"爆破"
 		"SFUI_GameModeDeathmatch"	"デスマッチ"
+		"SFUI_vote_passed_kick_player"	"プレイヤー: %s1 を追放しています..."
+		"SFUI_vote_kick_player_other"	"%s1 を追放しますか?\n"
+		"SFUI_vote_kick_player_cheating"	"%s1 を追放しますか?\n(チート行為をしているため)"
+		"SFUI_vote_kick_player_idle"	"%s1 を追放しますか?\n(アイドル状態のため)"
+		"SFUI_vote_kick_player_scamming"	"%s1 を追放しますか?\n(詐欺行為をのため)"
+		"SFUI_QMM_ERROR_FailedToPingServers"	"PINGが許容範囲の公式ゲームサーバーへの接続確認に失敗しました。"
+		"SFUI_Lobby_PersonInvitedFriendMessage"	"%s1 は %s2 を招待しました"
+		"SFUI_Lobby_PersonJoined"	"%s1 が参加しました"
+		"SFUI_LobbyClan_PersonJoined"	"%s1 が参加しました (メンバー %s2)"
+		"SFUI_LobbyNearby_PersonJoined"			"%s1 が参加しました (近くのプレーヤ)"
+		"SFUI_LobbyClan_PersonJoinedStopQM"	"%s1 が参加しました (メンバー %s2), マッチメイキングを停止します。"
+		"SFUI_LobbyNearby_PersonJoinedStopQM"		"%s1 が参加しました (近くのプレーヤ)), マッチメイキングを停止します。"
+		"SFUI_Lobby_PersonJoinedStopQM"	"%s1 が参加しました。マッチメイキングを停止します。"
+		"SFUI_Lobby_PersonLeftStopQM"	"%s1 が退出しました。マッチメイキングを停止します。"
 		"SFUI_Lobby_Has_NonPrime_Player"	"Prime: No Prime Players"
 		"SFUI_Lobby_Prime_Active"			"Prime: On"
 		"SFUI_Lobby_Prime_InActive"			"Prime: Off"
