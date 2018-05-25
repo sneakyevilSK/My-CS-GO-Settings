@@ -1,5 +1,3 @@
-//created by Orel & spddl (edit by BananaGaming)
-//visit http://convars.com
 "lang"
 {
 "Language" "English"
@@ -315,9 +313,12 @@
 		"SFUI_MainMenu_ConfirmBan"	"確定"
 		
 		
-		"Cstrike_game_join_spectators"	"%s1 > Spectator\n"
-		"Cstrike_game_join_terrorist"	"%s1 > T TEAM\n"
-		"Cstrike_game_join_ct"			"%s1 > CT TEAM\n"
+		//"Cstrike_game_join_spectators"	"%s1 > Spectator\n"
+		//"Cstrike_game_join_terrorist"	"%s1 > T TEAM\n"
+		//"Cstrike_game_join_ct"			"%s1 > CT TEAM\n"
+		"Cstrike_game_join_spectators"	"%s1 > 観戦者\n"
+		"Cstrike_game_join_terrorist"	"%s1 > T チーム\n"
+		"Cstrike_game_join_ct"			"%s1 > CT チーム\n"
 		
 		"Game_radio"						"%s1 [RADIO]: %s2"
 		"Game_radio_location"				"%s1 (%s2): %s3"
