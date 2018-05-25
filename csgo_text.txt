@@ -303,6 +303,8 @@
 		"Cstrike_Chat_AllDead"				"%s1 (Dead): %s2"
 		"Cstrike_Chat_AllSpec"				"%s1: %s2"
 		
+		"GameUI_Yes"	"はい"
+		"GameUI_No"	"いいえ"
 		"SFUI_TeamButtonAuto"	"自動選択"
 		"SFUI_TeamButtonCancel"	"キャンセル"
 		"SFUI_TeamButtonSpectate"	"観戦"
@@ -321,6 +323,8 @@
 		"Cstrike_TitlesTXT_Got_Hostages"	"人質を確保した。"
 		"Cstrike_TitlesTXT_Defusing_Bomb"	"爆弾を解除する。"
 		"Cstrike_TitlesTXT_Planting_Bomb"	"爆弾を設置中だ。"
+		"SFUI_LobbyKick_Title"	"プレイヤーを追放"
+		"SFUI_LobbyKick_Text"	"ロビーから %s1 を追放しますか？"
 		"SFUI_Lobby_MatchReadyTitle"	"マッチの準備ができました！"
 		"SFUI_Accept"	"了解"
 		"SFUI_Lobby_MatchReadyButton"	"承諾"
