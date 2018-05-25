@@ -28,29 +28,34 @@
 		"Player_Point_Award_Assist_Enemy"				" %s1 point: assist in killing %s2"
 		"Player_Point_Award_Assist_Enemy_Plural"		" %s1 points: assist in killing %s2"
 
-		"Team_Cash_Award_T_Win_Bomb"						" %s1 (Team): C4 爆発した"
-		//"Team_Cash_Award_Elim_Hostage"						" %s1 (Team): 敵のチーム除去され"
-		"Team_Cash_Award_Elim_Hostage"						" %s1 (Team): Enemy team eliminated"
-		//"Team_Cash_Award_Elim_Bomb"							" %s1 (Team): 敵のチーム除去され"
-		"Team_Cash_Award_Elim_Bomb"							" %s1 (Team): Enemy team eliminated"
+		//"Team_Cash_Award_Elim_Hostage"						" %s1 (Team): Enemy team eliminated"
+		//"Team_Cash_Award_Elim_Bomb"							" %s1 (Team): Enemy team eliminated"
 		//"Team_Cash_Award_Win_Time"							" %s1 (Team): Time is up"
-		"Team_Cash_Award_Win_Time"							" %s1 (Team): 時間切れです"
-		"Team_Cash_Award_Win_Defuse_Bomb"					" %s1 (Team): C4 解除に対する報酬。"
 		"Team_Cash_Award_Win_Hostages_Rescue"				" %s1 (Team): Hostages rescued"
 		"Team_Cash_Award_Win_Hostage_Rescue"				" %s1 (Team): Hostage rescued"
 		//"Team_Cash_Award_Loser_Bonus"						" %s1 (Team): Round lost"
-		"Team_Cash_Award_Loser_Bonus"						" %s1 (Team): ラウンドロスト"
-		"Team_Cash_Award_Loser_Zero"						" %s1 (Team): Income for dead players on losing team."
+		//"Team_Cash_Award_Loser_Zero"						" %s1 (Team): Income for dead players on losing team."
 		"Team_Cash_Award_Rescued_Hostage"					" %s1 (Team): Hostage rescued"
 		"Team_Cash_Award_Hostage_Interaction"				" %s1 (Team): Hostage reached"
 		"Team_Cash_Award_Hostage_Alive"						" %s1 (Team): Hostages survived"
 		//"Team_Cash_Award_Planted_Bomb_But_Defused"			" %s1 (Team): C4 planted"
-		"Team_Cash_Award_Planted_Bomb_But_Defused"			" %s1 (Team): C4 設置に対する報酬"
-		"Team_Cash_Award_no_income"							" 0: Out of time and survived"
-		"Team_Cash_Award_no_income_suicide"					" 0: Suicide"
+		//"Team_Cash_Award_no_income"							" 0: Out of time and survived"
+		//"Team_Cash_Award_no_income_suicide"					" 0: Suicide"
 		//"Team_Cash_Award_Generic"							" %s1: Team award"
+		//"Team_Cash_Award_Custom"							" %s1 (Team): %s2"
+		
+		"Team_Cash_Award_Loser_Zero"	" %s1: 敗北チームの倒されたプレイヤーへの報酬。"
+		"Team_Cash_Award_T_Win_Bomb"						" %s1 (チーム): C4 爆発した"
+		"Team_Cash_Award_Elim_Hostage"						" %s1 (チーム): 敵のチーム除去され"
+		"Team_Cash_Award_Elim_Bomb"							" %s1 (チーム): 敵のチーム除去され"
+		"Team_Cash_Award_Win_Time"							" %s1 (チーム): 時間切れです"
+		"Team_Cash_Award_Win_Defuse_Bomb"					" %s1 (チーム): C4 解除に対する報酬。"
+		"Team_Cash_Award_Loser_Bonus"						" %s1 (チーム): ラウンドロスト"
+		"Team_Cash_Award_Planted_Bomb_But_Defused"			" %s1 (チーム): C4 設置に対する報酬"
 		"Team_Cash_Award_Generic"							" %s1: チーム賞"
-		"Team_Cash_Award_Custom"							" %s1 (Team): %s2"
+		"Team_Cash_Award_Custom"							" %s1 (チーム): %s2"
+		"Team_Cash_Award_no_income"							" 0: 時間外に生き残った"
+		"Team_Cash_Award_no_income_suicide"					" 0: 自殺"
 
 		//"SFUI_Lobby_StatusWatchingCSGO"		"Watching Match"
 		//"SFUI_Lobby_StatusOverwatch"		"Overwatch Session"
@@ -95,6 +100,10 @@
 		"SFUI_Lobby_StatusRichPresence_gungame_deathmatch_review"				"Replaying Deathmatch"
 		"SFUI_Lobby_StatusRichPresence_training_training_game"					"Weapons Course"
 
+		"SFUIHUD_InfoPanel_PriorityMsgTitle"	"警告"
+		"Cstrike_TitlesTXT_Cannot_Buy_This"	"このアイテムは購入できません。"
+		"Cstrike_TitlesTXT_Cannot_Carry_Anymore"	"これ以上持てません。"
+		
 		//"Cstrike_TitlesTXT_Switch_To_BurstFire"						"Burst"
 		//"Cstrike_TitlesTXT_Switch_To_FullAuto"						"Auto"
 		//"Cstrike_TitlesTXT_Switch_To_SemiAuto"						"Semi"
@@ -217,6 +226,19 @@
 		"SFUI_XP_RankName_37"	"少将"
 		"SFUI_XP_RankName_39"	"大将"
 		"SFUI_XP_RankName_40"	"元帥"
+		
+		"SFUI_XP_Bonus_RankUp_1"	"<b> %s1 </b> 獲得した XP (あなたのスコア x %s2 倍)"
+		"SFUI_XP_Bonus_RankUp_2"	"<b> %s1 </b> 獲得した XP (ラウンド勝利数 x %s2 倍)"
+		"SFUI_XP_Bonus_RankUp_6"	"<b> %s1 </b> ミッションクリア"
+		"SFUI_XP_Bonus_RankUp_7"	"<b> %s1 </b> ミッションボーナス"
+		"SFUI_XP_Bonus_RankUp_Total"	"合計 XP <b> %s1 </b>"
+		"SFUI_XP_Bonus_RankUp_Remain"	"<b> %s1 XP </b> で %s3 - レベル %s2"
+		"SFUI_XP_Bonus_RankUp_Remain_Drop"	"<b> %s1 XP </b> で レベル %s2 + <b>%s3</b> 個のドロップ"
+		"SFUI_XP_RankName_Display"	"%s2 - レベル %s1"
+		"SFUI_XP_RankName_EarnedNewLevel"	"レベルアップ!"
+		"SFUI_XP_RankName_NewLevel"	"レベルアップ"
+		"SFUI_XP_RankName_Display_Bonus_Active"	"%s2 - レベル %s1<font color='#466571'> XP ボーナス加算は有効 </font>"
+		
 		"SFUI_XP_RankName_Display"	"%s2 - レベル %s1"
 		"SFUI_XP_RankName_EarnedNewLevel"	"レベルアップ!"
 		"SFUI_XP_RankName_NewLevel"	"レベルアップ"
@@ -263,6 +285,18 @@
 		
 		"SFUI_Notice_Alert_Warmup_Period"				"%s1"
 		"SFUI_Notice_Alert_Warmup_Period_Ending"		"%s1"
+		
+		"LoadingProgress_SpawningServer"	"ローカルゲームサーバーを起動中..."
+		"LoadingProgress_LoadMap"	"ワールドをロード中..."
+		"LoadingProgress_PrecacheWorld"	"ワールドを初期化中..."
+		"LoadingProgress_LoadResources"	"リソースをロード中..."
+		"LoadingProgress_SignonLocal"	"リソースを初期化中..."
+		"LoadingProgress_SignonDataLocal"	"ゲームデータを初期化中..."
+		"LoadingProgress_BeginConnect"	"サーバーとの接続を確立しています..."
+		"LoadingProgress_Connecting"	"サーバーに接続中..."
+		"LoadingProgress_ProcessServerInfo"	"サーバー情報を検索しています..."
+		"LoadingProgress_SendClientInfo"	"クライアント情報を送信しています..."
+		"LoadingProgress_SignonData"	"ゲームデータを検索しています..."
 		
 		"SFUI_ELO_RankName_0"						"<font size='14' color='#FF0000'>0/18 </font>| Unranked"
 		"SFUI_ELO_RankName_1"						"<font size='14' color='#FF1100'>1/18 </font>| <font size='14' color='#FFFFFF'><b>S1</b></font>"
@@ -319,7 +353,11 @@
 		"SFUI_MainMenu_CommendTooltip_Wins"	"<b>対戦マッチ</b> での勝利数"
 		"SFUI_MainMenu_SkillTooltip"	"対戦マッチメーキングでのスキルグループは、プレイヤーのスキルに適したマッチを探す為に使用されます"
 		"SFUI_PlayMenu_FriendsMatchButton"	"フレンドとプレイ"	[$WIN32||$PS3]
+		"SFUI_PlayMenu_FriendsMatchCompetitiveButton"	"フレンドとプレイ"
+		"SFUI_PlayMenu_CreateLobbyButton"	"フレンドとプレイ"
 		"SFUI_PlayMenu_CustomMatchButton"	"ゲームを検索"	[$PS3]
+		"SFUI_PlayMenu_WithBotsButton"	"ボットとオフライン"	[$WIN32]
+		"SFUI_PlayMenu_WithBotsButton"	"ボットとオフライン"	[$X360||$PS3]
 		"SFUI_PlayMenu_Offline"	"ローカルプレイ"
 		"SFUI_PlayMenu_WithBotsButton"	"ボットとオフライン"	[$WIN32]
 		"SFUI_PlayMenu_WithBotsButton"	"ボットとオフライン"	[$X360||$PS3]
