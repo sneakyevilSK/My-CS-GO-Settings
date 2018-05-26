@@ -161,11 +161,11 @@
 		"SFUIHUD_playerid_overhead_t"		"<font size='20' color='#ffc252'>%s1</font><font size='25' color='#00ff00'> %s2</font>"
 		"SFUIHUD_playerid_overhead_t_lowhealth"		"<font size='20' color='#ffc252'>%s1</font><font size='30' color='#ff0000'> %s2</font>"
 		"SFUIHUD_playerid_overhead_t_money"		"<font size='20' color='#c3953f'>%s1</font><font size='30' color='#00ff00'> %s2</font>"
-		
-		"FreezePanel_DamageTaken"		"<font color='#A0A0A0'>Taken:  </font><font size='16' color='#ff0000'>%s1</font> <font color='#A0A0A0'> in</font> <font size='16' color='#ff0000'>%s2 hit </font>"
-		"FreezePanel_DamageGiven"		"<font color='#A0A0A0'>Given:  </font><font size='18' color='#00ff00'>%s1</font> <font color='#A0A0A0'> in</font> <font size='18' color='#00ff00'>%s2 hit </font>"
-		"FreezePanel_DamageTaken_Multi"		"<font color='#A0A0A0'>Taken:  </font><font size='16' color='#ff0000'>%s1</font> <font color='#A0A0A0'> in</font> <font size='16' color='#ff0000'>%s2 hits </font>"
-		"FreezePanel_DamageGiven_Multi"		"<font color='#A0A0A0'>Given:  </font><font size='18' color='#00ff00'>%s1</font> <font color='#A0A0A0'> in</font> <font size='18' color='#00ff00'>%s2 hits </font>"
+
+		"FreezePanel_DamageTaken"		"<font color='#A0A0A0'>被ダメージ：:  </font><font size='16' color='#ff0000'>%s1</font> <font color='#A0A0A0'> に</font> <font size='16' color='#ff0000'>%s2 ヒット </font>"
+		"FreezePanel_DamageGiven"		"<font color='#A0A0A0'>与ダメージ”:  </font><font size='18' color='#00ff00'>%s1</font> <font color='#A0A0A0'> に</font> <font size='18' color='#00ff00'>%s2 ヒット </font>"
+		"FreezePanel_DamageTaken_Multi"		"<font color='#A0A0A0'>被ダメージ：:  </font><font size='16' color='#ff0000'>%s1</font> <font color='#A0A0A0'> に</font> <font size='16' color='#ff0000'>%s2 ヒット </font>"
+		"FreezePanel_DamageGiven_Multi"		"<font color='#A0A0A0'>与ダメージ”:  </font><font size='18' color='#00ff00'>%s1</font> <font color='#A0A0A0'> に</font> <font size='18' color='#00ff00'>%s2 ヒット </font>"
 
 		"BombsiteA"			"A"
 		"BombsiteB"			"B"
